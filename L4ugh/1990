@@ -1,0 +1,22 @@
+# 0xL4ugh-1990
+The task with .wav file
+
+It is easy to understand that this sound was used in older phones with a characteristic sounds
+
+I tried to check it in audio spectrum analyzer and got:
+
+![image](https://user-images.githubusercontent.com/76822573/104811847-7116b780-580f-11eb-921d-f9a86f5cd9fe.png)
+
+![image](https://user-images.githubusercontent.com/76822573/104811864-84c21e00-580f-11eb-8706-7dbc86795985.png)
+
+But this way was hard for me to detect unequivocally the Hz of these sounds
+
+I used specialise [service](http://dialabc.com/sound/detect/) to detect the buttons, which were tapped and I got:
+
+66#666#8#33#888#33#777#999#8#44#444#66#4#666#66#7777#2#6#33#9#2#999#
+
+And it is not hard to decode message, that i recieved:
+
+NOTEVERYTHINGONSAMEWAY
+
+Answer is 0xL4ugh{NOTEVERYTHINGONSAMEWAY}
