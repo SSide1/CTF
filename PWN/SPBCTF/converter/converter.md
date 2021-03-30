@@ -34,4 +34,6 @@ After executing the script and converting several hundred values, the server ret
 
 ![image](https://user-images.githubusercontent.com/76822573/113011023-04f6ef00-9182-11eb-9efe-d8f832ee124c.png)
 
+(*Python3 file with comments is attached*)
+
 The answer is: spbctf{You_ARE_CONveRTEr_MSW600}
