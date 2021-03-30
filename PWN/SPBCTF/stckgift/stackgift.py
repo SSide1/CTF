@@ -19,7 +19,7 @@ for i in win:
         temp = ''
 #output bytes in a group of 8 and list them
 
-print(li)
+
 print('')
 for i in range(0,len(li)):
     if((li[i][0]=='0')):
@@ -31,7 +31,7 @@ for i in range(0,len(li)):
             kek = li[i]
 #sorting the received list elements by first zero, and if element 3 ('| 0 || || 0 |') is equal to 0, then do not remember it
 
-print('kal')
+
 print(kek)
 lis = list()
 kek = kek[:-1]
