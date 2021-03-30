@@ -20,8 +20,11 @@ After that, you need to write the conditions in which the difference between one
 will be visible
 
 if stringich == b'\n _   _             \r\n| | | |  ___ __  __\r\n| |_| | / _ \\\\ \\/ /\r\n|  _  ||  __/ >  < \r\n|_| |_| \\___|/_/\\_\\\r\n                   \r\n':
+
         payload = hex(res)
+        
         payload = payload[2:]
+        
         print(payload)
         
 Such a string will be for translation into hex, the rest will be done by analogy. The main thing is to make a loop that
